@@ -2,56 +2,56 @@
     {
         "title": "HTML",
         "experience": "Experienced",
-        "img": "/img/html.png"
+        "img": "/portfolio/img/html.png"
     },
     {
         "title": "CSS",
         "experience": "Experienced",
-        "img": "/img/css.png"
+        "img": "/portfolio/img/css.png"
     },
     {
         "title": "JavaScript",
         "experience": "Experienced",
-        "img": "/img/javascript.png"
+        "img": "/portfolio/img/javascript.png"
     },
     {
         "title": "React",
         "experience": "Experienced",
-        "img": "/img/react.png"
+        "img": "/portfolio/img/react.png"
     },
     {
         "title": "AstroJS",
         "experience": "Experienced",
-        "img": "/img/astro.png"
+        "img": "/portfolio/img/astro.png"
     },
     {
         "title": "Node",
         "experience": "Experienced",
-        "img": "/img/node.png"
+        "img": "/portfolio/img/node.png"
     },
     {
         "title": "MySQL",
         "experience": "Learning",
-        "img": "/img/mysql.svg"
+        "img": "/portfolio/img/mysql.svg"
     },
     {
         "title": "MongoDB",
         "experience": "Learning",
-        "img": "/img/mongodb.svg"
+        "img": "/portfolio/img/mongodb.svg"
     },
     {
         "title": "Python",
         "experience": "Experienced",
-        "img": "/img/python.png"
+        "img": "/portfolio/img/python.png"
     },
     {
         "title": "FastAPI",
         "experience": "Experienced",
-        "img": "/img/fastapi.svg"
+        "img": "/portfolio/img/fastapi.svg"
     },
     {
         "title": "Django",
         "experience": "Learning",
-        "img": "/img/django.png"
+        "img": "/portfolio/img/django.png"
     }
 ]
