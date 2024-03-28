@@ -1,0 +1,57 @@
+[
+    {
+        "title": "HTML",
+        "experience": "Experienced",
+        "img": "/img/html.png"
+    },
+    {
+        "title": "CSS",
+        "experience": "Experienced",
+        "img": "/img/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "experience": "Experienced",
+        "img": "/img/javascript.png"
+    },
+    {
+        "title": "React",
+        "experience": "Experienced",
+        "img": "/img/react.png"
+    },
+    {
+        "title": "AstroJS",
+        "experience": "Experienced",
+        "img": "/img/astro.png"
+    },
+    {
+        "title": "Node",
+        "experience": "Experienced",
+        "img": "/img/node.png"
+    },
+    {
+        "title": "MySQL",
+        "experience": "Learning",
+        "img": "/img/mysql.svg"
+    },
+    {
+        "title": "MongoDB",
+        "experience": "Learning",
+        "img": "/img/mongodb.svg"
+    },
+    {
+        "title": "Python",
+        "experience": "Experienced",
+        "img": "/img/python.png"
+    },
+    {
+        "title": "FastAPI",
+        "experience": "Experienced",
+        "img": "/img/fastapi.svg"
+    },
+    {
+        "title": "Django",
+        "experience": "Learning",
+        "img": "/img/django.png"
+    }
+]

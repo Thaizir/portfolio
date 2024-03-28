@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+//Components
+import SectionContainer from "../components/SectionContainer.astro";
+import About from "../components/About.astro";
+import Skills from "../components/Skills.astro";
+import Experience from "../components/Experience.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<Layout title="Bienvenidos a mi Portafolio">
+	<SectionContainer id="top" />
+	<SectionContainer id="about">
+		<About />
+	</SectionContainer>
+
+	<SectionContainer id="skills">
+		<Skills />
+	</SectionContainer>
+
+	<SectionContainer id="experience">
+		<Experience />
+	</SectionContainer>
+
+	<SectionContainer id="contact">
+		<Contact />
+	</SectionContainer>
+</Layout>

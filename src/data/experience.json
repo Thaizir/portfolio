@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Company 1",
+        "position": "Full-Stack Developer",
+        "duration": "January 2022 - September 2022",
+        "description": "Developed and maintained full-stack web applications, including frontend and backend. Implemented new technologies and managed projects."
+    },
+    {
+        "company": "Company 2",
+        "position": "Frontend Developer",
+        "duration": "May 2020 - December 2021",
+        "description": "Designed and developed intuitive and responsive web interfaces. Implemented best practices for web development."
+    },
+    {
+        "company": "Company 3",
+        "position": "Backend Developer",
+        "duration": "June 2019 - August 2019",
+        "description": "Developed and maintained RESTful APIs. Implemented business logic and managed databases."
+    }
+]

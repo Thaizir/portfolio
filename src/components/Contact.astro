@@ -1,0 +1,65 @@
+<div class="fondo">
+    <h1 class="text-6xl text-center mt-20 font-bold">Contact</h1>
+
+    <div class="flex justify-center">
+        <div class="w-full md:w-1/2 flex flex-col p-4">
+            <p class="m-2 text-3xl">Let's get in touch!</p>
+
+            <form id="form" class="flex flex-col p-4">
+                <input
+                    id="name"
+                    class="p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
+                    type="text"
+                    required
+                    placeholder="Your Name"
+                />
+                <input
+                    id="tel"
+                    class="p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
+                    type="tel"
+                    required
+                    placeholder="You phone number"
+                />
+                <input
+                    id="email"
+                    class="p-2 m-2 h-14 border-none bg-fondo-form placeholder-current"
+                    type="email"
+                    required
+                    placeholder="Your Email"
+                />
+                <input
+                    id="subject"
+                    class="form_input p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
+                    type="text"
+                    required
+                    placeholder="Subject"
+                />
+                <textarea
+                    id="message"
+                    class="form_input p-2 m-2 h-40 border-2 border-none bg-fondo-form placeholder-current placeholder:top"
+                    required
+                    placeholder="Message"></textarea>
+                <input
+                    id="form_submit"
+                    type="submit"
+                    value="Send"
+                    class="cursor-pointer p-2 m-2 w-20 h-10 border-2 border-none bg-fondo-form hover:bg-color-texto hover:text-white ease-in duration-200"
+                />
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    let form = document.getElementById("form");
+
+    form.addEventListener("submit", (e) => {
+        e.preventDefault(); //
+    });
+</script>
+
+<style>
+    .fondo {
+        background-image: url("/img/contact_bg.png");
+    }
+</style>
