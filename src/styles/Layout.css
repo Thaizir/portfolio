@@ -9,17 +9,3 @@ body {
     color: whitesmoke;
     font-family: Righteous, sans-serif;
 }
-
-.hamburger {
-    right: 10%;
-    position: fixed;
-    display: block;
-    width: 35px;
-    cursor: pointer;
-
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-    z-index: 100;
-}

@@ -41,7 +41,7 @@
         <div class="bar"></div>
     </button>
     <nav class="mobile-nav">
-        <a href="#top">Home</a>
+        <a class="home" href="#top">Home</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
@@ -49,6 +49,20 @@
 </header>
 
 <style>
+    .hamburger {
+        right: 10%;
+        position: fixed;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+        z-index: 100;
+    }
+
     .hamburger .bar,
     .hamburger:after,
     .hamburger:before {
@@ -139,8 +153,8 @@
 
     navLinks.forEach((link) => {
         link.addEventListener("click", function () {
-            link.classList.remove("is-active");
-            //   mobileMenu.classList.remove(".is-active"); Revisar
+            link.classList.remove("is-active"); // Remove is-active from other links
+            menuBtn.classList.toggle("is-active"); // Toggle hamburger button
         });
     });
 </script>
