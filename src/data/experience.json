@@ -6,15 +6,15 @@
         "description": "During my time as a freelancer on Upwork, I dedicated myself to carrying out various web development projects, both front-end and back-end. I became familiar with the needs of different clients and worked efficiently to deliver high-quality projects on time. I primarily utilized technologies like Node.js for back-end development and frameworks like Angular and React for front-end development."
     },
     {
-        "company": "Kinetic",
-        "position": "Part-Time Frontend Developer",
-        "duration": "May 2021 - December 2021",
-        "description": "I worked on improving the usability of their clients interfaces and components. I implemented various modifications in the front-end using React, with the aim of creating a more intuitive and user-friendly experience."
-    },
-    {
         "company": "Lider.cl (Walmart)",
         "position": "Backend Developer",
-        "duration": "January 2021 - November 2023",
+        "duration": "January 2021 - July 2022",
         "description": "My team and I developed internal applications that boosted productivity by 25% during the pandemic, both for delivery and pick-up. Facilitating order preparation and fast deliveries, as well as reducing fraud. All this thanks to technologies like React, Node.js and Go."
+    },
+    {
+        "company": "Kinetic",
+        "position": "Part-Time Frontend Developer",
+        "duration": "May 2020 - December 2020",
+        "description": "I worked on improving the usability of their clients interfaces and components by implementing various modifications in the front-end using React, with the aim of creating a more intuitive and user-friendly experience."
     }
 ]
