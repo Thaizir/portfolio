@@ -1,6 +1,7 @@
-<div class="fondo">
-    <h1 class="text-6xl text-center font-bold">Contact</h1>
+<div class="fondo flex flex-col">
+    <h1 class="text-6xl text-center justify-center font-bold">Contact</h1>
 
+    <img src="/portfolio/img/contact_bg.png" alt="" />
     <div
         class="flex flex-col p-8 mt-10 mb-10 ali mx-auto justify-center w-full md:w-1/2"
     >
@@ -18,51 +19,16 @@
 
 <style>
     .fondo {
-        background-image: url("/portfolio/img/contact_bg.png");
+        /* background-image: url(""); */
+        position: relative;
         height: 45vh;
-        margin-top: 8%;
+        margin-top: 5%;
         margin-bottom: auto%;
     }
+    .fondo img {
+        position: absolute;
+        width: 75%;
+        height: 75%;
+        transform: translate(15%, 0%);
+    }
 </style>
-
-<!-- <form id="form" class="flex flex-col p-4">
-                <input
-                    id="name"
-                    class="p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
-                    type="text"
-                    required
-                    placeholder="Your Name"
-                />
-                <input
-                    id="tel"
-                    class="p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
-                    type="tel"
-                    required
-                    placeholder="You phone number"
-                />
-                <input
-                    id="email"
-                    class="p-2 m-2 h-14 border-none bg-fondo-form placeholder-current"
-                    type="email"
-                    required
-                    placeholder="Your Email"
-                />
-                <input
-                    id="subject"
-                    class="form_input p-2 m-2 h-14 border-2 border-none bg-fondo-form placeholder-current"
-                    type="text"
-                    required
-                    placeholder="Subject"
-                />
-                <textarea
-                    id="message"
-                    class="form_input p-2 m-2 h-40 border-2 border-none bg-fondo-form placeholder-current placeholder:top"
-                    required
-                    placeholder="Message"></textarea>
-                <input
-                    id="form_submit"
-                    type="submit"
-                    value="Send"
-                    class="cursor-pointer p-2 m-2 w-20 h-10 border-2 border-none bg-fondo-form hover:bg-color-texto hover:text-white ease-in duration-200"
-                />
-            </form> -->

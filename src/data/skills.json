@@ -20,23 +20,18 @@
         "img": "/portfolio/img/react.png"
     },
     {
-        "title": "AstroJS",
-        "experience": "Experienced",
-        "img": "/portfolio/img/astro.png"
-    },
-    {
         "title": "Node",
         "experience": "Experienced",
         "img": "/portfolio/img/node.png"
     },
     {
         "title": "MySQL",
-        "experience": "Learning",
+        "experience": "Experienced",
         "img": "/portfolio/img/mysql.svg"
     },
     {
         "title": "MongoDB",
-        "experience": "Learning",
+        "experience": "Experienced",
         "img": "/portfolio/img/mongodb.svg"
     },
     {
@@ -51,7 +46,7 @@
     },
     {
         "title": "Django",
-        "experience": "Learning",
+        "experience": "Experienced",
         "img": "/portfolio/img/django.png"
     }
 ]
